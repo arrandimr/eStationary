@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E-Stationary</string>
+    <string name="username">Username</string>
+    <string name="passwprd">Password</string>
+    <string name="delete_confirmation">Yakin ingin menghapus data transaksi?</string>
+    <string name="yes">Yes</string>
+    <string name="success_delete">Data berhasil dihapus!</string>
+    <string name="null_field">%1$s wajib diisi!</string>
+    <string name="uang_kurang">Uang anda kurang!</string>
+</resources>

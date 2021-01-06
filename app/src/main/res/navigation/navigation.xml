@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/activity_homepage">
+
+    <fragment
+        android:id="@+id/activity_homepage"
+        android:name="com.example.estationary.transaksi.HomepageActivity"
+        android:label="activity_homepage"
+        tools:layout="@layout/activity_homepage" >
+        <action
+            android:id="@+id/action_activity_homepage_to_activity_add_transaksi"
+            app:destination="@id/activity_add_transaksi" />
+        <action
+            android:id="@+id/action_activity_homepage_to_activity_edit_transaksi"
+            app:destination="@id/activity_edit_transaksi" />
+        <action
+            android:id="@+id/action_activity_homepage_to_activity_profile"
+            app:destination="@id/activity_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/activity_add_transaksi"
+        android:name="com.example.estationary.transaksi.tambah.AddTransaksiActivity"
+        android:label="activity_add_transaksi"
+        tools:layout="@layout/activity_add_transaksi" />
+    <fragment
+        android:id="@+id/activity_edit_transaksi"
+        android:name="com.example.estationary.transaksi.edit.EditTransaksiActivity"
+        android:label="activity_edit_transaksi"
+        tools:layout="@layout/activity_edit_transaksi"/>
+    <fragment
+        android:id="@+id/activity_profile"
+        android:name="com.example.estationary.ProfileDeveloper"
+        android:label="activity_profile_developer"
+        tools:layout="@layout/activity_profile_developer">
+
+    </fragment>
+</navigation>
